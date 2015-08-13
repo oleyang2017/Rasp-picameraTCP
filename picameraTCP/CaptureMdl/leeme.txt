@@ -1,0 +1,10 @@
+Para el correcto funcionamiento debe estar en ejecución el demonio de rsync
+
+rsync --daemon --config=rsyncd.conf
+
+crear un link con este comando 
+
+"D:\Desarrollos\proyectos\HBT Cenital\External_Libs_Installers\rsyncWin 3.1.0\rsync.exe" "--daemon" "--config=rsyncd.conf"
+
+*Se debe tambien modificar el nombre de cada raspberry para poder identificarlos. Para ello se modifica el contenido
+del archivo '/etc/hostname' de cada raspberry. Debe ser un identificador univoco.
